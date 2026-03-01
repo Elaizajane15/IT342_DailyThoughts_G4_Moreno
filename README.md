@@ -16,4 +16,12 @@
   - `git commit -m "Add README with activity log"`
 -   Finish docs files in `docs/` (project overview, setup, usage).
 -    Create mobile Kotlin app in `mobile/` (Android project scaffold).
+ 
+## Activity Log — 2026-03-01
+
+- Added backend placeholders under `src/main/java/com/example/backend`:
+  config, controller, service, repository, entity, dto, exception.
+- Restored `backend/backend/pom.xml` and kept Gradle files.
+- Verified backend builds successfully with Gradle (`./gradlew build -x test`).
+- Removed earlier experimental `com/dailythoughts` scaffolding.
 
